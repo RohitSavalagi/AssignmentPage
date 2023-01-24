@@ -41,17 +41,15 @@ header > .container {
   width: 100%;
 }
 
-.para {
-  margin: 0 auto;
-  width: 1059px;
+.inner-container {
   line-height: 26px;
+  padding: 0 102px;
+  margin: 0 auto;
 }
 
 .main {
   background-color: #f5f6f8;
 }
-
-
 
 .content {
   padding: 45px 100px 45px 0px;
@@ -72,4 +70,3 @@ footer > .container {
   letter-spacing: 1.8px;
   font-weight: bold;
 }
-
