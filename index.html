@@ -7,7 +7,7 @@
     <title>Photo</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
       rel="stylesheet"
@@ -17,20 +17,18 @@
 
   <body>
     <header>
-      <div class="container">
-        <a href="#" class="item">home</a>
-        <a href="#" class="item">photoapp</a>
-        <a href="#" class="item">design</a>
-        <a href="#" class="item">download</a>
+      <div class="nav header__nav">
+        <a href="#" class="header__item">home</a>
+        <a href="#" class="header__item">photoapp</a>
+        <a href="#" class="header__item">design</a>
+        <a href="#" class="header__item">download</a>
       </div>
     </header>
-    <main class="main">
-      <div class="container">
-        <img src="./img/smartPhone.png" class="image" alt="Photo" />
-        <h1 class="heading">reppresent your life with a simple photo</h1>
-        <div class="inner-container">
-          <article>
-            <p>
+    <main class="landing-section">
+        <img src="./img/smartPhone.png" class="landing-section__photo" alt="Photo" />
+        <article class="landing-section__text-wrapper">
+            <h1 class="landing-section__header_text">reppresent your life with a simple photo</h1>
+            <p class="landing-section__text-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
               velit est, ullamcorper a vestibulum eu, pulvinar ut orci. Donec
               gravida orci non suscipit consequat. Suspendisse ut dui sed tortor
@@ -41,7 +39,7 @@
               consequat ante in odio varius hendrerit.
             </p>
 
-            <p class="m-top">
+            <p class="landing-section__text-description landing-section__text-description_m-top">
               Vestibulum varius pretium mattis. Aliquam vulputate maximus est,
               quis euismod elit sodales placerat. Proin pretium arcu a odio
               consectetur, nec vestibulum nisi venenatis. Nulla eleifend nisi
@@ -58,13 +56,11 @@
               facilisis.
             </p>
           </article>
-        </div>
-        <button class="btn-start">GET STARTED</button>
-      </div>
+        <button class="landing-section__btn-start">GET STARTED</button>
     </main>
     <footer>
-      <div class="container">
-        <p class="content">Copyright by phototime - all right reserved</p>
+      <div class="footer">
+        <p class="footer__content">Copyright by phototime - all right reserved</p>
       </div>
     </footer>
   </body>
